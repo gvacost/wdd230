@@ -11,7 +11,7 @@ body {
   }
   
   nav {
-    background: yellowgreen;
+    background: rgb(160, 219, 243);
     grid-column: 1 / 4;
     padding: 1rem;
     
