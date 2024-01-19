@@ -29,10 +29,10 @@ a{
 
 
 nav :hover {
-    border: 5px solid white;
+    border: 2px solid rgb(245, 240, 240);
 }
 
-@media (
+@media screen and(
     min-width: 500px
 )
 {
