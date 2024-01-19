@@ -44,7 +44,9 @@ nav :hover {
         grid-row: 2/3;
     }
     section{
-    border: 1px solid rgb(212, 221, 230);    }
+        border: 1px solid rgb(212, 221, 230); 
+        align-items: center;
+    }
     .navs{
         display: flex;
     }
