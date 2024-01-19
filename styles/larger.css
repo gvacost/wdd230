@@ -36,7 +36,7 @@ nav :hoover {
     min-width: 500px
 )
 {
-    main{
+    /* main{
         display: grid;
     }
     .card{
@@ -44,7 +44,7 @@ nav :hoover {
     }
     section{
         grid-row: 3/4;
-    }
+    } */
     .navs{
         display: flex;
     }
