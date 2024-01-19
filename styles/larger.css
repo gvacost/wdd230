@@ -38,6 +38,9 @@ nav :hoover {
     .card{
         grid-row: 1/2;
     }
+    section{
+        grid-row: 2/3;
+    }
     nav a{
         display: flex;
     }
