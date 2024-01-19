@@ -40,12 +40,6 @@ nav :hover {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    /* h2{
-        grid-row: 1/2;
-    }
-    .card{
-        grid-row: 2/3;
-    } */
     section{
         border: 1px solid rgb(212, 221, 230); 
         align-items: center;
