@@ -32,7 +32,11 @@ nav :hoover {
 )
 {
     main{
-        display: block;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .card{
+        grid-row: 1/2;
     }
     nav a{
         display: flex;
