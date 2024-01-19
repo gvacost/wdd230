@@ -38,6 +38,7 @@ nav :hover {
 {
     main{
         display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
     }
     .card{
         grid-row: 2/3;
