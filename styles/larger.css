@@ -48,12 +48,10 @@ nav :hoover {
     .navs{
         display: flex;
     }
+
     a{
         flex-direction: column;
-        flex: 1 1 100%;
+        /* flex: 1 1 100%; */
         text-align: center;
-    }
-    a :hoover {
-        border: 1px solid white;
     }
 }
