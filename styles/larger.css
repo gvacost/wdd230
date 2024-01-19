@@ -33,7 +33,7 @@ nav :hover {
 }
 
 @media screen and(
-    max-width: 640px
+    min-width: 640px
 )
 {
     main{
