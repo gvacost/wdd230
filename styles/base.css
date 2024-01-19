@@ -1,25 +1,6 @@
 body {font-family: 'Salsa', 'Roboto' cursive;
-background-color: rgb(209, 82, 82);}
+background-color: rgb(243, 185, 185);}
 
-nav{
-    display: flex;
-    flex-direction: row;
-
-}
-
-nav:hoover {
-    border: 1px solid white;
-}
-
-@media screen and(
-    min-width: 500px
-)
-{
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-    nav:hoover {
-        border: 1px solid white;
-    }
+nav {
+    background-color: rgb(204, 190, 218);
 }
