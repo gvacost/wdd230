@@ -50,7 +50,7 @@ nav :hoover {
     }
     a{
         flex-direction: column;
-        flex: content;
+        flex: 1 1 100%;
         text-align: center;
     }
     a :hoover {
