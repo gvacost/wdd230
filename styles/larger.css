@@ -49,7 +49,8 @@ nav :hoover {
         display: flex;
     }
     a{
-        flex-direction: auto 100%;
+        flex-direction: column;
+        flex-direction: 1 100%;
         text-align: center;
     }
     a:hoover {
