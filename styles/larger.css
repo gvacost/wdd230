@@ -16,12 +16,17 @@ section{
 h2{
     text-align: center;
 }
-nav {
+.navs {
     display: flex;
+    
 }
-nav {
-    flex: 1fr 1fr 100%;
+ 
+a{  
+   flex-direction: row;
+   flex: 1 1 100%;
+   text-align: center; 
 }
+
 
 nav :hoover {
     border: 5px solid white;
@@ -40,11 +45,12 @@ nav :hoover {
     section{
         grid-row: 3/4;
     }
-    nav a{
+    .navs{
         display: flex;
     }
-    nav a{
-        flex: 1 1 1 100%;
+    a{
+        flex-direction: auto 100%;
+        text-align: center;
     }
     a:hoover {
         border: 1px solid white;
