@@ -28,15 +28,15 @@ a{
 }
 
 
-nav :hoover {
+nav :hover {
     border: 5px solid white;
 }
 
-@media screen and(
+@media (
     min-width: 500px
 )
 {
-    /* main{
+    main{
         display: grid;
     }
     .card{
@@ -44,14 +44,14 @@ nav :hoover {
     }
     section{
         grid-row: 3/4;
-    } */
+    }
     .navs{
         display: flex;
     }
 
     a{
         flex-direction: column;
-        /* flex: 1 1 100%; */
+        flex: 1 1 100%;
         text-align: center;
     }
 }
