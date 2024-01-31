@@ -54,11 +54,12 @@ nav :hover {
         align-items: center;
     }
     .navs{
-        display: flex;
+    
         flex-direction: column;
     }
     
     a{
+        flex: 1;
         text-align: center;
     }
     
