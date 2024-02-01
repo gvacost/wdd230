@@ -10,6 +10,8 @@ h1{
 }
 .card{
     margin: 15px;
+    align-items: flex-start;
+    padding: 5px;
 }
 section{
     border: 5px solid rgb(134, 134, 223)  ;
@@ -17,6 +19,7 @@ section{
 }
 h2{
     text-align: center;
+    
 }
 
 .navs {
@@ -48,6 +51,7 @@ nav :hover {
     }
     h2{
        text-align: center;
+       max-width: fit-content;
     }
     /* .card{
         grid-row: 2/3 auto;
