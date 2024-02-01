@@ -16,4 +16,6 @@ nav {
 }
 h2{
     background-color: rgb(236, 174, 185);
+    border: 1px rgb(236, 174, 185);
+    border-radius: 50%;
 }
