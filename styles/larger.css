@@ -51,7 +51,6 @@ nav :hover {
     }
     h2{
        text-align: center;
-       max-width: fit-content;
     }
     /* .card{
         grid-row: 2/3 auto;
