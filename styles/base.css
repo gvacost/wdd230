@@ -9,13 +9,13 @@ span{
 }
 body {
     font-family: 'Salsa', 'Roboto' cursive;
-    background-color:rgb(229, 250, 250);
+    background-color:rgb(253, 255, 255);
 }
 nav {
-    background-color: rgb(204, 190, 218);
+    background-color: rgb(241, 226, 255);
 }
 h2{
-    background-color: rgb(236, 174, 185);
+    background-color: rgb(252, 67, 67);
     border: 1px rgb(236, 174, 185);
     border-radius: 50%;
 }
