@@ -25,3 +25,29 @@ h2{
     grid-column: 3/5;
     grid-row: 2/3;
 }
+@media (
+    max-width: 640px
+)
+{
+    header{
+        background-color: rgb(123, 123, 233);
+    }
+    h1{
+        color: rgb(240, 245, 248);
+    }
+    main{
+        background-color: antiquewhite;
+        display: block;
+    }
+    #first{
+        background-color: rgb(250, 242, 233);
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    #second{
+        background-color: rgb(241, 233, 221);
+        text-align: center;
+    }
+}
