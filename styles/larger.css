@@ -27,14 +27,17 @@ h2{
     text-align: center;
     
 }
-
-.navs {
+#buttoon{
+    display: none;
+}
+.menu {
     display: flex;
     flex-direction: row;
     
 }
  
-a{  
+.navs li { 
+    color: rgb(245, 240, 240);
   flex: 1;
   text-align: center;
 }
@@ -50,6 +53,7 @@ nav :hover {
     max-width: 600px 
 )
 {
+  
     main{
         display: grid;
         grid-template-columns: 1fr;
@@ -64,17 +68,51 @@ nav :hover {
         border-radius: 30% / 30%;
         align-items: center;
     }
-    .navs{
+    /* #menu{
     
         flex-direction: column;
+    } */
+    #buttoon::before {
+        content: "☰";
     }
-    
-    a{
-        flex: 1;
+
+    #buttoon {
+        display: block;
+        background: none;
+        border: 1px solid rgb(0,0,0);
+        cursor: pointer;
+    }
+    ul.menu li a{
+        display: block; 
         text-align: center;
+        padding: 0.6rem;
     }
+
+    ul.menu {
+        display: none;
+    }
+    /* #menu {
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        color: #000;
+         position: absolute;
+        right: 1rem;
+      top:1rem;
+    } */
     
+    
+    #buttoon.open::before {
+        content: "⏫";
+    }
+
+    li.current-menu-item a{
+        background-color: rgb(0,0,0, 0.2);
+    }
   
+    ul.menu.open {
+        display: block;
+    }
 }
 
 
