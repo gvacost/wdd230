@@ -1,8 +1,14 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 img{
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 span{
     text-align: center;
+    align-self: center;
 }
 main{
     display: grid;
@@ -47,7 +53,13 @@ nav :hover {
     border: 2px solid rgb(245, 240, 240);
 }
 
-
+#darkMode{
+    max-width: 44px;
+    max-height: 44px;
+    align-items: end;
+    text-align: right;
+    align-self: flex-end;
+}
 
 @media (
     max-width: 600px 
