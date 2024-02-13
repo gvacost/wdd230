@@ -87,6 +87,16 @@ nav :hover {
     text-align: right;
     align-self: flex-end;
 } */
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
 
 @media (
     max-width: 600px 
