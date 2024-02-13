@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <img src="images/perfil4.jpg" alt="Perfil Photo">
+        <img id="perfil" src="images/perfil4.webp" alt="Perfil Photo">
         <span>Gonzalo Valentin Acosta</span>
         <button id="darkMode">🌜</button>
     </header>
@@ -36,6 +36,16 @@
             </ul>
         </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="wdd230/images/hero-templobsas-small.webp">
+                <source media="(max-width: 960px)" srcset="wdd230/images/hero-templobsas-larger.webp">
+                <img src="images/hero-templobsas-larger.webp" alt="" width="max-width">
+            </picture>
+            <div class="temple-label">
+                <p>Buenos Aires Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card l-a">
             <h2>Learning Activities</h2>
@@ -76,6 +86,11 @@
             <a href="week02/bom.html" target="_blank">BomApp</a>
         </section>
     </main>
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25525.874225574764!2d-60.31494326015222!3d-36.896704597993704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1707843950522!5m2!1ses-419!2sar"
+        width="1200" height="400" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
         <p> &copy; 2024 Gonzalo Valentin Acosta Argentina </p>
         <p id="lastModified"></p>
