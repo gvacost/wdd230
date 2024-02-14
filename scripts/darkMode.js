@@ -3,7 +3,7 @@ const main = document.querySelector('main')
 
 darkButton.addEventListener('click', () =>{
     if (darkButton.textContent.includes('🌜')){
-        main.style.background = 'rgb(0,0,0, 0.9)';
+        main.style.background = 'rgb(0,0,0, 0.85)';
         main.style.color = '#fff';
         darkButton.textContent = '🔆';
     } else {
