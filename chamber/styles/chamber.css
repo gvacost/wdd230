@@ -29,6 +29,34 @@ nav a{
     border: 2px dashed rgb(172, 47, 47);
     border-radius: 30% 30%;
 }
+main{
+    max-width: 900px;
+    display: inline-block;
+}
+
+#dispMsg{
+    border: 3px solid white;
+    background-color: rgb(233, 221, 221);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main img:hover{
+    transform: scale(1.05);
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
