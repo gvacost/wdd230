@@ -11,7 +11,7 @@ picture{
 }
 img{
     text-align: center;
-    background: #000;
+    background: #ccc9c9;
     animation: fade 5s ;
 }
 @keyframes fade {
