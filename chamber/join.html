@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Gonzalo Valentin Acosta, course assignment portal">
+    <meta name="author" content="Gonzalo Valentin Acosta">
+    <title>Gonzalo Acosta- WDD 230 - Web Frontend Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.csss">
+    <meta property="og:title" content="Gonzalo Acosta- WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="-">
+    <meta property="og:image" content="https://github.com/gvacost/wdd230/blob/main/images/olavarria.jpeg">
+    <meta property="og:url" content="https://gvacost.github.io/wdd230/index.html#">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <header>
+        <img id="perfil" src="images/perfil4.webp" alt="Perfil Photo">
+        <span>Gonzalo Valentin Acosta</span>
+        <button id="darkMode">🌜</button>
+    </header>
+        <nav class="navs">
+            <button id="buttoon"></button>
+            <ul class="menu">
+                <li class="current-menu-item"><a href="#">Home</a></li>
+                <li class="current-menu-item"><a href="chamber/discover.html" target="_blank">Chamber</a></li>
+                <li class="current-menu-item"><a href="#" target="_blank">Site Plan</a></li>
+                <li class="current-menu-item"><a href="form.html" target="_blank">Form</a></li>
+            </ul>
+        </nav>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text"  name="lname" id="lname" required></label>
+                <label>Position <input type="text" name="pos" id="pos" pattern="[a-zA-Z_-\]{7,}"></label>
+                <label>Email Address* <input type="email" name="email" id="email" placeholder="example@email.com" required></label>
+                <label>Phone Number* <input type="tel" name="telnum" id="tnum" required></label>
+                <label>Business Name* <input type="text" name="" id="" required></label>
+            </fieldset>
+            <fieldset> 
+                <div>Membership Level</div>
+                <label><input type="radio" name="membership" id="npmem" value="npmem">NP Membership <span id="but" onmouseout="hideMessage()" onmouseover="showmsg ('This membership is for non profit organizations and there is no fee.')">﹖<div id="mssg"></div></span></label> <!--Tendría que poner una indicacion a que se refiere con el NP Mem
+                Puedo usar un scrip js para que al apretar el boton [?] aparezca un cartel que diga lo que significa -->  
+                <label><input type="radio" name="membership" id="bmem" value="bmem">Bronze Membership</label>
+                <label><input type="radio" name="membership" id="smem" value="smem">Silver Membership</label>
+                <label><input type="radio" name="membership" id="gmem" value="gmem">Gold Membership</label>
+            </fieldset>    
+            <label>Business Description<textarea name="" id="" cols="40" rows="4"></textarea></label>           
+            <label>Timestamp <input type="hidden" name="tstap" id="ts"></label>
+            <input type="submit" name="" id="" value="Load my User">
+        </form>
+        <table>
+            <caption>Benefits</caption>
+            <thead>
+                <tr>
+                    <th scope="col">NP Membership</th>
+                    <th scope="col">Bronze Membership</th>
+                    <th scope="col">Silver Membership</th>
+                    <th scope="col">Gold Membership</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <li>No fee</li>
+                    </td>
+                    <td>
+                        <li>Access for each event of the chamber</li>
+                    </td>
+                    <td>
+                        <li>Access for each event of the chamber</li>
+                        <li>Special discounts for events</li>
+                    </td>
+                    <td>
+                        <li>Access for each event of the chamber</li>
+                        <li>Special discounts for events</li>
+                        <li>Personalize Training</li>
+                    </td>
+            </tbody>
+        </table>
+    </main>
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25525.874225574764!2d-60.31494326015222!3d-36.896704597993704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1707843950522!5m2!1ses-419!2sar"
+        width="1200" height="400" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <p> &copy; 2024 Gonzalo Valentin Acosta Argentina </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/responsivemenu.js"></script>
+    <script src="wdd230/scripts/darkMode.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>
