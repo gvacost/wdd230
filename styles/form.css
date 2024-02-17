@@ -1,0 +1,43 @@
+label{
+    display: block;
+    margin: 1rem;
+    align-content: baseline;
+
+}
+
+#uname{
+    margin-left: 10px;
+}
+#passW{
+    margin-left: 14px;
+}
+#email{
+    margin-left: 10px;
+}
+
+#rate {
+	width: 200px;
+	margin-bottom: 0;
+}
+#subBut{
+    margin: 5px; 
+}
+
+#rvalue {
+	font-size: 1.2rem;
+	color: navy;
+    margin: 15px;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 3px 0 85px;
+    padding:  0 2px 5px;
+    font-size: small;
+	width: 185px;
+    
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}

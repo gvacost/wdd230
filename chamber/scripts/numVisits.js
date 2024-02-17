@@ -18,3 +18,4 @@ if (lastVisit === null) {
 }
 
 localStorage.setItem('lastVisit', currentDate.toISOString());
+ 
