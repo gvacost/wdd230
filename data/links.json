@@ -1,0 +1,88 @@
+{
+    "weeks":[
+        {"week":"Week1",
+        "links":[
+            {
+            "url":"week01/holygrail.html",
+            "title":"HolyGrail LayOut"
+            },
+            {
+            "url":"week01/media-query.html",
+            "title":"Media Query"
+            }
+        ]
+        },
+        {
+            "week": "Week2",
+            "links":[
+                {
+                    "url":"week02/design.html",
+                    "title":"Design Principles"
+                },
+                {
+                    "url":"week02/design.html",
+                    "title":"CodePen"
+                }
+            ]   
+        },
+        {
+            "week":"Week3",
+            "links":[
+                {
+                    "url":"week03/images/landscape..webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Load"
+                },
+                {
+                    "url":"week03/responsive-image.html",
+                    "title":"Responsive Images"
+                },
+                {
+                    "url":"week03/bom.html",
+                    "title":"Web Storage API"
+                }
+            ]
+        },
+        {
+            "week":"Week4",
+            "links":[
+                {
+                    "url":"https://codepen.io/gvacost/pen/MWxLJOW",
+                    "title":"CodePenW4"
+                },
+                {
+                    "url":"week04/images/CSSCombinatorsw.webp",
+                    "title":"CSS Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"Table Build"
+                },
+                {
+                    "url":"week04/form-start/index.html",
+                    "title":"Form Tutorial"
+                }
+            ]
+        },
+        {
+            "week":"Week5",
+            "links":[
+                {
+                    "url":"https://codepen.io/gvacost/pen/PoLLJOz",
+                    "title":"CodePenW5"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"JSON"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather API"
+                }
+            ]
+        }
+    ]
+}
