@@ -1,5 +1,5 @@
 const baseURL= "https://github.com/gvacost/wdd230";
-const linksURL = "https://github.com/gvacost/wdd230/data/links.json"
+const linksURL = "https://github.com/gvacost/wdd230/blob/main/data/links.json"
 const sect = document.querySelector('.card.l-a ul')
 
 async function getLinks(){
