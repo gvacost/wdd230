@@ -15,19 +15,16 @@ const displayLinks = (weeks) => {
     weeks.forEach((week, i) => {
         let name = document.createElement('li');
 
-        name.textContent = `${week.week}`;
-
-        const linksList = document.createElement('ul');
+        name.textContent = `${week.week}: `;
 
         week.links.forEach((link) => {
-            const linkItem = document.createElement('li');
+            
             const linkAnchor = document.createElement('a');
             linkAnchor.href = link.url;
-            linkAnchor.textContent = link.title;
-            linkItem.appendChild(linkAnchor);
-            linksList.appendChild(linkItem);
+            linkAnchor.textContent = ` ${link.title} | `;
+            name.appendChild(linkAnchor);
+
         });
-        name.appendChild(linksList);
         sect.appendChild(name)
     });
 
